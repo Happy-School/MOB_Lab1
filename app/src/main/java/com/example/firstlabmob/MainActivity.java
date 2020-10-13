@@ -19,7 +19,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void BtnChangeText(View view) {
-        this.txtMain.setText("Good bye World");
+        this.txtMain.setText("Good bye World!");
         this.txtMain.setTextColor(getResources().getColor(R.color.purple_200));
+    }
+
+    public void btnRollBack(View view) {
+        this.txtMain.setText("Hello world!");
+        this.txtMain.setTextColor(getResources().getColor(R.color.black));
     }
 }

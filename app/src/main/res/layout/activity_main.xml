@@ -27,4 +27,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtMain" />
 
+    <Button
+        android:id="@+id/btnRollBack"
+        android:layout_width="193dp"
+        android:layout_height="50dp"
+        android:text="Roll Back"
+        android:onClick="btnRollBack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTxtChanger"
+        app:layout_constraintVertical_bias="0.359" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
