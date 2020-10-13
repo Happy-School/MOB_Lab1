@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void BtnChangeText(View view) {
         this.txtMain.setText("Good bye World");
+        this.txtMain.setTextColor(getResources().getColor(R.color.purple_200));
     }
 }
